@@ -1,0 +1,34 @@
+
+Global Steps: 0 --- Rewards: 5 -- Price: 5
+SPS: 1438
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+SPS: 1042
+SPS: 806
+SPS: 676
+SPS: 588
+SPS: 528
+SPS: 478
+SPS: 439
+SPS: 399
+SPS: 363
+SPS: 335
+SPS: 314
+SPS: 299
+SPS: 285
+SPS: 273
+SPS: 263
+Traceback (most recent call last):
+  File "C:\Users\srika\Dynamic_Pricing\sac_dp.py", line 343, in <module>
+    _, log_pi, _ = actor.get_action(observations)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srika\Dynamic_Pricing\sac_dp.py", line 182, in get_action
+    log_prob = normal.log_prob(x_t)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\distributions\normal.py", line 81, in log_prob
+    var = (self.scale ** 2)
+           ~~~~~~~~~~~^^~~
+  File "C:\Python311\Lib\site-packages\torch\_tensor.py", line 40, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+SPS: 254

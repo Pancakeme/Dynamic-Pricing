@@ -1,0 +1,22 @@
+
+Global Steps: 0 --- Rewards: 5 -- Price: 5
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Global Steps: 10000 --- Rewards: 5.36600399017334 -- Price: 5.36600399017334
+Global Steps: 20000 --- Rewards: 0.0 -- Price: 14.767443656921387
+Global Steps: 30000 --- Rewards: 14.91808032989502 -- Price: 14.91808032989502
+Global Steps: 40000 --- Rewards: 0.0 -- Price: 14.5590238571167
+Global Steps: 50000 --- Rewards: 14.875173568725586 -- Price: 14.875173568725586
+Global Steps: 60000 --- Rewards: 14.639759063720703 -- Price: 14.639759063720703
+Global Steps: 70000 --- Rewards: 14.941584587097168 -- Price: 14.941584587097168
+Global Steps: 80000 --- Rewards: 0.0 -- Price: 14.626526832580566
+Global Steps: 90000 --- Rewards: 14.326736450195312 -- Price: 14.326736450195312
+Global Steps: 100000 --- Rewards: 0.0 -- Price: 14.587593078613281
+Global Steps: 110000 --- Rewards: 0.0 -- Price: 14.962250709533691
+Global Steps: 120000 --- Rewards: 0.0 -- Price: 14.557218551635742
+Global Steps: 130000 --- Rewards: 0.0 -- Price: 14.967325210571289
+Global Steps: 140000 --- Rewards: 0.0 -- Price: 14.672060012817383
+Global Steps: 150000 --- Rewards: 0.0 -- Price: 14.84195327758789
+Global Steps: 160000 --- Rewards: 0.0 -- Price: 14.969797134399414
+Global Steps: 170000 --- Rewards: 0.0 -- Price: 14.886938095092773
+Global Steps: 180000 --- Rewards: 0.0 -- Price: 14.96390151977539
+Global Steps: 190000 --- Rewards: 0.0 -- Price: 14.897592544555664

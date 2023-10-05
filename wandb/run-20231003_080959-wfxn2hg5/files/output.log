@@ -1,0 +1,22 @@
+
+Global Steps: 0 --- Rewards: 5 -- Price: 5
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Global Steps: 10000 --- Rewards: 7.532979965209961 -- Price: 7.532979965209961
+Global Steps: 20000 --- Rewards: 7.700545310974121 -- Price: 7.700545310974121
+Traceback (most recent call last):
+  File "C:\Users\srika\Dynamic_Pricing\sac_dp.py", line 325, in <module>
+    qf_loss = qf1_loss + qf2_loss
+    ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\optim\optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\optim\optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\torch\optim\adam.py", line 141, in step
+    adam(
+  File "C:\Python311\Lib\site-packages\torch\optim\adam.py", line 281, in adam
+    func(params,
+  File "C:\Python311\Lib\site-packages\torch\optim\adam.py", line 439, in _multi_tensor_adam
+    torch._foreach_add_(device_state_steps, 1)
+KeyboardInterrupt

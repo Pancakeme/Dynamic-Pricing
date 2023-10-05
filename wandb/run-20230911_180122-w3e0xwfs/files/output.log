@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\srika\Dynamic_Pricing\sac_dp.py", line 278, in <module>
+    real_next_obs = next_obs.copy()
+                    ^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'copy'

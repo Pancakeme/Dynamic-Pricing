@@ -1,0 +1,199 @@
+2023-09-11 18:05:36,343 INFO    StreamThr :21700 [internal.py:wandb_internal():86] W&B internal server running at pid: 21700, started at: 2023-09-11 18:05:36.342346
+2023-09-11 18:05:36,345 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: status
+2023-09-11 18:05:36,345 INFO    WriterThread:21700 [datastore.py:open_for_write():85] open: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\run-egzfod5s.wandb
+2023-09-11 18:05:36,345 DEBUG   SenderThread:21700 [sender.py:send():369] send: header
+2023-09-11 18:05:36,345 DEBUG   SenderThread:21700 [sender.py:send():369] send: run
+2023-09-11 18:05:37,313 INFO    SenderThread:21700 [dir_watcher.py:__init__():211] watching files in: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files
+2023-09-11 18:05:37,313 INFO    SenderThread:21700 [sender.py:_start_run_threads():1100] run started: egzfod5s with start time 1694435736.34572
+2023-09-11 18:05:37,314 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: summary_record
+2023-09-11 18:05:37,314 INFO    SenderThread:21700 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-11 18:05:37,322 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: check_version
+2023-09-11 18:05:37,322 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: check_version
+2023-09-11 18:05:37,642 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: run_start
+2023-09-11 18:05:37,666 DEBUG   HandlerThread:21700 [system_info.py:__init__():31] System info init
+2023-09-11 18:05:37,666 DEBUG   HandlerThread:21700 [system_info.py:__init__():46] System info init done
+2023-09-11 18:05:37,666 INFO    HandlerThread:21700 [system_monitor.py:start():181] Starting system monitor
+2023-09-11 18:05:37,666 INFO    SystemMonitor:21700 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-11 18:05:37,666 INFO    HandlerThread:21700 [system_monitor.py:probe():201] Collecting system info
+2023-09-11 18:05:37,672 INFO    SystemMonitor:21700 [interfaces.py:start():190] Started cpu monitoring
+2023-09-11 18:05:37,673 INFO    SystemMonitor:21700 [interfaces.py:start():190] Started disk monitoring
+2023-09-11 18:05:37,673 INFO    SystemMonitor:21700 [interfaces.py:start():190] Started gpu monitoring
+2023-09-11 18:05:37,679 INFO    SystemMonitor:21700 [interfaces.py:start():190] Started memory monitoring
+2023-09-11 18:05:37,692 INFO    SystemMonitor:21700 [interfaces.py:start():190] Started network monitoring
+2023-09-11 18:05:37,698 DEBUG   HandlerThread:21700 [system_info.py:probe():195] Probing system
+2023-09-11 18:05:37,698 DEBUG   HandlerThread:21700 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-11 18:05:37,698 DEBUG   HandlerThread:21700 [system_info.py:probe():240] Probing system done
+2023-09-11 18:05:37,698 DEBUG   HandlerThread:21700 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.0', 'heartbeatAt': '2023-09-11T12:35:37.698157', 'startedAt': '2023-09-11T12:35:36.329625', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\srika\\Dynamic_Pricing\\sac_dp.py', 'codePath': 'sac_dp.py', 'host': 'Predator', 'username': 'srika', 'executable': 'C:\\Python311\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2304.0, 'min': 0.0, 'max': 2304.0}, 'cpu_freq_per_core': [{'current': 2304.0, 'min': 0.0, 'max': 2304.0}], 'disk': {'total': 475.71972274780273, 'used': 349.4359245300293}, 'gpu': 'NVIDIA GeForce RTX 3050 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Ti Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.768852233886719}}
+2023-09-11 18:05:37,698 INFO    HandlerThread:21700 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-11 18:05:37,698 INFO    HandlerThread:21700 [system_monitor.py:probe():214] Publishing system info
+2023-09-11 18:05:37,698 DEBUG   HandlerThread:21700 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-11 18:05:37,702 DEBUG   HandlerThread:21700 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-11 18:05:37,702 DEBUG   HandlerThread:21700 [system_info.py:_save_code():89] Saving code
+2023-09-11 18:05:37,704 DEBUG   HandlerThread:21700 [system_info.py:_save_code():110] Saving code done
+2023-09-11 18:05:37,704 INFO    HandlerThread:21700 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-11 18:05:37,704 ERROR   gpu       :21700 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-11 18:05:37,714 DEBUG   SenderThread:21700 [sender.py:send():369] send: files
+2023-09-11 18:05:37,714 INFO    SenderThread:21700 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-09-11 18:05:37,714 INFO    SenderThread:21700 [sender.py:_save_file():1354] saving file code\sac_dp.py with policy now
+2023-09-11 18:05:37,723 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-11 18:05:37,723 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: stop_status
+2023-09-11 18:05:37,724 INFO    HandlerThread:21700 [handler.py:handle_tbrecord():759] handling tbrecord: tbrecord {
+  log_dir: "runs/DP__sac_d__1__1694435732"
+  save: true
+}
+control {
+  relay_id: "54e085ebb68b4c0bba2a9e92bb06aa1f"
+}
+_info {
+  stream_id: "egzfod5s"
+}
+
+2023-09-11 18:05:37,724 DEBUG   HandlerThread:21700 [config_util.py:dict_from_config_file():104] no default config file found in config-defaults.yaml
+2023-09-11 18:05:38,243 INFO    wandb-upload_1:21700 [upload_job.py:push():113] Skipped uploading C:\Users\srika\AppData\Local\Temp\tmp8vqp3ja5wandb\bi2ee7il-code/sac_dp.py
+2023-09-11 18:05:38,243 DEBUG   SenderThread:21700 [sender.py:send():369] send: telemetry
+2023-09-11 18:05:38,243 DEBUG   SenderThread:21700 [sender.py:send():369] send: tbrecord
+2023-09-11 18:05:38,322 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\wandb-metadata.json
+2023-09-11 18:05:38,322 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\wandb-summary.json
+2023-09-11 18:05:38,322 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\code\sac_dp.py
+2023-09-11 18:05:38,323 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\requirements.txt
+2023-09-11 18:05:38,323 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\code
+2023-09-11 18:05:38,924 INFO    wandb-upload_0:21700 [upload_job.py:push():133] Uploaded file C:\Users\srika\AppData\Local\Temp\tmp8vqp3ja5wandb\r9zcu0ft-wandb-metadata.json
+2023-09-11 18:05:39,734 ERROR   gpu       :21700 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-11 18:05:40,040 DEBUG   SenderThread:21700 [sender.py:send():369] send: exit
+2023-09-11 18:05:40,040 INFO    SenderThread:21700 [sender.py:send_exit():574] handling exit code: 1
+2023-09-11 18:05:40,040 INFO    SenderThread:21700 [sender.py:send_exit():576] handling runtime: 2
+2023-09-11 18:05:40,042 INFO    SenderThread:21700 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-11 18:05:40,042 INFO    SenderThread:21700 [sender.py:send_exit():582] send defer
+2023-09-11 18:05:40,042 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:40,042 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-11 18:05:40,042 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:40,042 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-09-11 18:05:40,042 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 1
+2023-09-11 18:05:40,042 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:40,042 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-11 18:05:40,042 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:40,042 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-09-11 18:05:40,042 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 2
+2023-09-11 18:05:40,042 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:40,042 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-11 18:05:40,042 INFO    HandlerThread:21700 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-11 18:05:40,042 DEBUG   SystemMonitor:21700 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-11 18:05:40,042 DEBUG   SystemMonitor:21700 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-11 18:05:40,042 INFO    HandlerThread:21700 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-11 18:05:40,052 DEBUG   SystemMonitor:21700 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-11 18:05:40,052 INFO    HandlerThread:21700 [interfaces.py:finish():202] Joined disk monitor
+2023-09-11 18:05:40,097 INFO    HandlerThread:21700 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-11 18:05:40,097 INFO    HandlerThread:21700 [interfaces.py:finish():202] Joined memory monitor
+2023-09-11 18:05:40,097 INFO    HandlerThread:21700 [interfaces.py:finish():202] Joined network monitor
+2023-09-11 18:05:40,102 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:40,102 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-09-11 18:05:40,102 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 3
+2023-09-11 18:05:40,102 DEBUG   SenderThread:21700 [sender.py:send():369] send: stats
+2023-09-11 18:05:40,102 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:40,102 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-11 18:05:40,102 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:40,102 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-09-11 18:05:40,102 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 4
+2023-09-11 18:05:40,104 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:40,104 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-11 18:05:40,328 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\wandb-summary.json
+2023-09-11 18:05:40,328 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\output.log
+2023-09-11 18:05:40,773 DEBUG   Thread-20 (_thread_except_body):21700 [tb_watcher.py:_process_events():284] Encountered tensorboard directory watcher error: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\srika\\Dynamic_Pricing\\runs\\DP__sac_d__1__1694435732\\events.out.tfevents.1694435737.Predator.11980.0' -> 'C:\\Users\\srika\\Dynamic_Pricing\\wandb\\run-20230911_180536-egzfod5s\\files\\events.out.tfevents.1694435737.Predator.11980.0'
+2023-09-11 18:05:42,344 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\output.log
+2023-09-11 18:05:50,887 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-11 18:05:50,887 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: status_report
+2023-09-11 18:05:50,887 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:50,887 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-11 18:05:50,887 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-09-11 18:05:50,887 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: status_report
+2023-09-11 18:05:50,887 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 5
+2023-09-11 18:05:50,887 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: poll_exit
+2023-09-11 18:05:50,887 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:50,887 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-11 18:05:50,892 DEBUG   SenderThread:21700 [sender.py:send():369] send: summary
+2023-09-11 18:05:50,893 INFO    SenderThread:21700 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-09-11 18:05:50,893 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:50,893 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-09-11 18:05:50,893 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 6
+2023-09-11 18:05:50,893 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:50,893 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-11 18:05:50,893 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:50,893 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-09-11 18:05:50,893 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: status_report
+2023-09-11 18:05:51,173 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-11 18:05:51,372 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 7
+2023-09-11 18:05:51,372 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:51,372 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-11 18:05:51,373 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:51,373 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-09-11 18:05:51,396 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\config.yaml
+2023-09-11 18:05:51,396 INFO    Thread-16 :21700 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\wandb-summary.json
+2023-09-11 18:05:52,054 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 8
+2023-09-11 18:05:52,054 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:52,054 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-11 18:05:52,054 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:52,054 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-09-11 18:05:52,054 INFO    SenderThread:21700 [job_builder.py:build():232] Attempting to build job artifact
+2023-09-11 18:05:52,054 INFO    SenderThread:21700 [job_builder.py:build():266] no source found
+2023-09-11 18:05:52,054 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 9
+2023-09-11 18:05:52,054 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:52,054 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-11 18:05:52,054 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:52,054 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-09-11 18:05:52,054 INFO    SenderThread:21700 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-09-11 18:05:52,403 INFO    SenderThread:21700 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\output.log
+2023-09-11 18:05:52,403 INFO    SenderThread:21700 [dir_watcher.py:finish():389] scan: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files
+2023-09-11 18:05:52,407 INFO    SenderThread:21700 [dir_watcher.py:finish():403] scan save: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\config.yaml config.yaml
+2023-09-11 18:05:52,407 INFO    SenderThread:21700 [dir_watcher.py:finish():403] scan save: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\output.log output.log
+2023-09-11 18:05:52,413 INFO    SenderThread:21700 [dir_watcher.py:finish():403] scan save: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\requirements.txt requirements.txt
+2023-09-11 18:05:52,417 INFO    SenderThread:21700 [dir_watcher.py:finish():403] scan save: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\wandb-metadata.json wandb-metadata.json
+2023-09-11 18:05:52,417 INFO    SenderThread:21700 [dir_watcher.py:finish():403] scan save: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\wandb-summary.json wandb-summary.json
+2023-09-11 18:05:52,423 INFO    SenderThread:21700 [dir_watcher.py:finish():403] scan save: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\code\sac_dp.py code/sac_dp.py
+2023-09-11 18:05:52,423 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 10
+2023-09-11 18:05:52,423 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:52,423 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-11 18:05:52,423 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:52,423 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-09-11 18:05:52,423 INFO    SenderThread:21700 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-11 18:05:53,372 INFO    wandb-upload_1:21700 [upload_job.py:push():133] Uploaded file C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\config.yaml
+2023-09-11 18:05:53,683 INFO    wandb-upload_2:21700 [upload_job.py:push():133] Uploaded file C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\requirements.txt
+2023-09-11 18:05:53,772 INFO    wandb-upload_0:21700 [upload_job.py:push():133] Uploaded file C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\output.log
+2023-09-11 18:05:53,858 INFO    wandb-upload_3:21700 [upload_job.py:push():133] Uploaded file C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\files\wandb-summary.json
+2023-09-11 18:05:54,065 INFO    Thread-15 (_thread_body):21700 [sender.py:transition_state():602] send defer: 11
+2023-09-11 18:05:54,065 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:54,065 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-11 18:05:54,065 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:54,065 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-09-11 18:05:54,065 INFO    SenderThread:21700 [file_pusher.py:join():164] waiting for file pusher
+2023-09-11 18:05:54,065 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 12
+2023-09-11 18:05:54,065 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:54,065 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-11 18:05:54,065 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:54,065 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-09-11 18:05:54,573 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 13
+2023-09-11 18:05:54,573 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:54,573 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-11 18:05:54,573 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:54,573 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-09-11 18:05:54,573 INFO    SenderThread:21700 [sender.py:transition_state():602] send defer: 14
+2023-09-11 18:05:54,573 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: defer
+2023-09-11 18:05:54,573 DEBUG   SenderThread:21700 [sender.py:send():369] send: final
+2023-09-11 18:05:54,573 INFO    HandlerThread:21700 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-11 18:05:54,582 DEBUG   SenderThread:21700 [sender.py:send():369] send: footer
+2023-09-11 18:05:54,582 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: defer
+2023-09-11 18:05:54,582 INFO    SenderThread:21700 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-09-11 18:05:54,583 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-11 18:05:54,583 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: server_info
+2023-09-11 18:05:54,584 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-11 18:05:54,584 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: poll_exit
+2023-09-11 18:05:54,584 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-11 18:05:54,584 DEBUG   SenderThread:21700 [sender.py:send_request():396] send_request: server_info
+2023-09-11 18:05:55,214 INFO    MainThread:21700 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-09-11 18:05:55,214 INFO    MainThread:21700 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-09-11 18:05:55,214 INFO    MainThread:21700 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-09-11 18:05:55,214 DEBUG   HandlerThread:21700 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-11 18:05:55,214 INFO    HandlerThread:21700 [handler.py:finish():854] shutting down handler
+2023-09-11 18:05:55,600 INFO    WriterThread:21700 [datastore.py:close():298] close: C:\Users\srika\Dynamic_Pricing\wandb\run-20230911_180536-egzfod5s\run-egzfod5s.wandb
+2023-09-11 18:05:56,220 INFO    SenderThread:21700 [sender.py:finish():1526] shutting down sender
+2023-09-11 18:05:56,220 INFO    SenderThread:21700 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-11 18:05:56,220 INFO    SenderThread:21700 [file_pusher.py:join():164] waiting for file pusher

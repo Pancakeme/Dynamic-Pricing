@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\srika\Dynamic_Pricing\sac_dp.py", line 261, in <module>
+    actions, _, _ = actor.get_action(torch.Tensor(obs).to(device))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srika\Dynamic_Pricing\sac_dp.py", line 185, in get_action
+    log_prob = log_prob.sum(1, keepdim=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)

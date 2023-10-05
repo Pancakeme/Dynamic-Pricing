@@ -1,0 +1,31 @@
+
+Global Steps: 0 --- Rewards: 5 -- Price: 5
+Global Steps: 5000 --- Rewards: 9.496010780334473 -- Price: 9.496010780334473
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Global Steps: 10000 --- Rewards: 10.670089721679688 -- Price: 10.670089721679688
+Global Steps: 15000 --- Rewards: 7.447103500366211 -- Price: 7.447103500366211
+Global Steps: 20000 --- Rewards: 10.881010055541992 -- Price: 10.881010055541992
+Global Steps: 25000 --- Rewards: 10.237481117248535 -- Price: 10.237481117248535
+Global Steps: 30000 --- Rewards: 10.40395736694336 -- Price: 10.40395736694336
+Global Steps: 35000 --- Rewards: 7.766016960144043 -- Price: 7.766016960144043
+Global Steps: 40000 --- Rewards: 10.530844688415527 -- Price: 10.530844688415527
+Global Steps: 45000 --- Rewards: 0.0 -- Price: 10.949968338012695
+Global Steps: 50000 --- Rewards: 7.746308326721191 -- Price: 7.746308326721191
+Global Steps: 55000 --- Rewards: 7.725424289703369 -- Price: 7.725424289703369
+Global Steps: 60000 --- Rewards: 10.465373992919922 -- Price: 10.465373992919922
+Global Steps: 65000 --- Rewards: 7.788359642028809 -- Price: 7.788359642028809
+Global Steps: 70000 --- Rewards: 10.839300155639648 -- Price: 10.839300155639648
+Global Steps: 75000 --- Rewards: 7.862267017364502 -- Price: 7.862267017364502
+Global Steps: 80000 --- Rewards: 10.240557670593262 -- Price: 10.240557670593262
+Global Steps: 85000 --- Rewards: 7.814164638519287 -- Price: 7.814164638519287
+Global Steps: 90000 --- Rewards: 7.730291366577148 -- Price: 7.730291366577148
+Global Steps: 95000 --- Rewards: 7.679630279541016 -- Price: 7.679630279541016
+Global Steps: 100000 --- Rewards: 7.757427215576172 -- Price: 7.757427215576172
+Global Steps: 105000 --- Rewards: 10.388265609741211 -- Price: 10.388265609741211
+Global Steps: 110000 --- Rewards: 7.928308486938477 -- Price: 7.928308486938477
+Global Steps: 115000 --- Rewards: 7.8897552490234375 -- Price: 7.8897552490234375
+Global Steps: 120000 --- Rewards: 7.754552841186523 -- Price: 7.754552841186523
+Global Steps: 125000 --- Rewards: 7.886366367340088 -- Price: 7.886366367340088
+Global Steps: 130000 --- Rewards: 7.920854568481445 -- Price: 7.920854568481445
+Global Steps: 135000 --- Rewards: 10.273011207580566 -- Price: 10.273011207580566
+Global Steps: 140000 --- Rewards: 10.324104309082031 -- Price: 10.324104309082031
